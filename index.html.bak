@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Course Recommendation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+    <class ="logo">LIMKOKWING UNIVERSITY OF CREATIVE TECHNOLOGY</a>
+  </header>
+   
+    <div class="form-style-5">
+	 <h1>Course Recommendation Form</h1>
+        <form>
+            <fieldset>
+                <legend><span class="number">1</span> Maths Grade</legend>
+                <input type="text" id="mathsGrade" placeholder="Enter Maths grade">
+                <legend><span class="number">2</span> Business Studies Grade</legend>
+                <input type="text" id="businessGrade" placeholder="Enter Business Studies grade">
+                <legend><span class="number">3</span> English Grade</legend>
+                <input type="text" id="englishGrade" placeholder="Enter English grade">
+            </fieldset>
+            <input type="button" value="Recommend Program" onclick="recommendProgram()" />
+        </form>
+    </div>
+    <div id="program-recommendation">
+        <script src="script.js"></script>
+    </div>
+	<footer>
+        <p>&copy; 2023 Limkokwing Lesotho. All Rights Reserved.</p>
+        <p>Contact: <a href="http://limkokwing.ac.ls/">contact@limkokwing.ac.ls/</a></p>
+    </footer>
+</body>
+</html>
